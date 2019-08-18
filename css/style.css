@@ -10,7 +10,7 @@
     padding: 0;
     border-style: none;
     border-width: 0;
-    font-family: inherit;
+    font-family: 'Nunito', sans-serif;
     font-size: 12px;
     line-height: 1.5;
 }
@@ -26,7 +26,8 @@
     width: 102px;
     margin-left: 10px;
     text-decoration: none;
-    font-family: inherit;
+    font-size: 13.5px;
+    font-family: font-family: 'Nunito', sans-serif;
 }
 
 .button-a-img{
