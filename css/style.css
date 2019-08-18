@@ -1,3 +1,9 @@
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
 .sign-in-row {
     text-align: right;
     margin: 0;
@@ -30,4 +36,15 @@
     margin-right: 4px;
     vertical-align: text-top;
     display: inline-block;
+}
+
+.third-row {
+  width: 380px;
+  background: #fff;
+  padding: 30px;
+}
+
+.title {
+  background: #fff;
+  width: 100%;
 }

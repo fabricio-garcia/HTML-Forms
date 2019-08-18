@@ -7,11 +7,11 @@
     -moz-box-sizing: border-box;
     -ms-box-sizing: border-box;
     box-sizing: border-box;
+    background-color: #eceef1;
 }
 
 .grid {
     margin: 0 auto;
-    max-width: 1200px;
     width: 100%;
 }
 
