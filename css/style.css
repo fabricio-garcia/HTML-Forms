@@ -15,19 +15,20 @@
     line-height: 1.5;
 }
 
-.button-a{
+.button-sign-in{
     text-align: center;
     margin-top: 2px;
     height: 34px;
     background-color: #0077C5;
     color: white;
-    border-radius: 5px;
+    border:#0077C5;
+    border-radius: 4px;
     padding: 0 19px;
     width: 102px;
     margin-left: 10px;
     text-decoration: none;
     font-size: 13.5px;
-    font-family: font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito', sans-serif;
 }
 
 .button-a-img{
@@ -39,13 +40,85 @@
     display: inline-block;
 }
 
-.third-row {
+.form {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
   width: 380px;
-  background: #fff;
   padding: 30px;
+  border: gainsboro 1px solid;
+  border-radius: 2px;
 }
 
-.title {
-  background: #fff;
-  width: 100%;
+.form h1 {
+  font-family: 'Nunito', sans-serif;
+  font-size: 24px;
+  font-weight: 50;
+  margin-top: 0;
+}
+
+.form p {
+  font-family: 'Nunito', sans-serif;
+  font-size: 14px;
+  margin: 0;
+}
+
+.form a {
+  font-family: 'Nunito', sans-serif;
+  font-size: 12px;
+}
+
+.form form {
+  margin-top: 1.5em;
+  text-align: left;
+  font-family: 'Nunito', sans-serif;
+  font-size: 14px;
+}
+
+.form input {
+  margin-top: 0.75em;
+  margin-bottom: 2.5em;
+  border: 1px solid #C1C5C8;
+  height: 34px;
+}
+
+#tel {
+  margin-bottom: 0;
+}
+
+.form h5 {
+  font-size: 10px;
+  font-weight: 20;
+  margin-top: 0px;
+}
+
+input.button-create-account {
+  height: 44px;
+  background-color: #0077C5;
+  border:#0077C5;
+  color: white;
+  border-radius: 4px;
+  padding: 6px 22px;
+  width: 102px;
+  text-decoration: none;
+  font-size: 15.75px;
+}
+
+p.terms-of-use {
+  font-size: 12px;
+  font-style: italic;
+  color: #757575;
+}
+
+.form section {
+  background-color: #ECEEF1;
+  margin: 32px -30px -30px;
+  padding: 16px;
+  text-align: center;
+  font-size: 10px;
+  color: #8d9096;
+}
+
+footer {
+  font-size: 12px;
 }
