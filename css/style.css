@@ -19,13 +19,13 @@ a {
     line-height: 1.5;
 }
 
-.button-sign-in{
+.button-sign-in {
     text-align: center;
     margin-top: 2px;
     height: 34px;
-    background-color: #0077C5;
+    background-color: #0077c5;
     color: white;
-    border:#0077C5;
+    border:#0077c5;
     border-radius: 4px;
     padding: 0 19px;
     width: 102px;
@@ -61,6 +61,15 @@ a {
   margin-top: 0;
 }
 
+footer p {
+  font-family: 'Nunito', sans-serif;
+  font-size: 12px;
+  margin: 0;
+  padding-top: 5px;
+  outline: none;
+  color: #505050;
+}
+
 .form p {
   font-family: 'Nunito', sans-serif;
   font-size: 14px;
@@ -82,7 +91,7 @@ a {
 .form input {
   margin-top: 0.75em;
   margin-bottom: 2.5em;
-  border: 1px solid #C1C5C8;
+  border: 1px solid #c1c5c8;
   height: 34px;
 }
 
@@ -93,14 +102,14 @@ a {
 .form h5 {
   font-size: 10px;
   font-weight: 20;
-  margin-top: 0px;
+  margin-top: 0;
 }
 
 input.button-create-account {
   width: 100%;
   height: 44px;
-  background-color: #0077C5;
-  border:#0077C5;
+  background-color: #0077c5;
+  border:#0077c5;
   color: white;
   border-radius: 4px;
   padding: 6px 22px;
@@ -121,15 +130,6 @@ p.terms-of-use {
   text-align: center;
   font-size: 10px;
   color: #8d9096;
-}
-
-footer p{
-  font-family: 'Nunito', sans-serif;
-  font-size: 12px;
-  margin: 0;
-  padding-top: 5px;
-  outline: none;
-  color: #505050;
 }
 
 #section a {
