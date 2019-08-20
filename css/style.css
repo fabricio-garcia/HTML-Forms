@@ -1,33 +1,137 @@
+a {
+  text-decoration: none;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
 .sign-in-row {
-    text-align: right;
-    margin: 0;
-    padding: 0;
-    border-style: none;
-    border-width: 0;
-    font-family: inherit;
-    font-size: 12px;
-    line-height: 1.5;
+  text-align: right;
+  margin: 0;
+  padding: 0;
+  border-style: none;
+  border-width: 0;
+  font-family: "Nunito", sans-serif;
+  font-size: 12px;
+  line-height: 1.5;
 }
 
-.button-a{
-    text-align: center;
-    margin-top: 2px;
-    height: 34px;
-    background-color: #0077C5;
-    color: white;
-    border-radius: 5px;
-    padding: 0 19px;
-    width: 102px;
-    margin-left: 10px;
-    text-decoration: none;
-    font-family: inherit;
+.button-sign-in {
+  text-align: center;
+  margin-top: 2px;
+  height: 34px;
+  background-color: #0077c5;
+  color: white;
+  border: #0077c5;
+  border-radius: 4px;
+  padding: 0 19px;
+  width: 102px;
+  margin-left: 10px;
+  text-decoration: none;
+  font-size: 13.5px;
+  font-family: "Nunito", sans-serif;
 }
 
-.button-a-img{
-    height: 1em;
-    width: .8em;
-    margin-top: 2px;
-    margin-right: 4px;
-    vertical-align: text-top;
-    display: inline-block;
+.button-a-img {
+  height: 1em;
+  width: 0.8em;
+  margin-top: 2px;
+  margin-right: 4px;
+  vertical-align: text-top;
+  display: inline-block;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  width: 380px;
+  padding: 30px;
+  border: gainsboro 1px solid;
+  border-radius: 2px;
+}
+
+.form h1 {
+  font-family: "Nunito", sans-serif;
+  font-size: 24px;
+  font-weight: 50;
+  margin-top: 0;
+}
+
+footer p {
+  font-family: "Nunito", sans-serif;
+  font-size: 12px;
+  margin: 0;
+  padding-top: 5px;
+  outline: none;
+  color: #505050;
+}
+
+.form p {
+  font-family: "Nunito", sans-serif;
+  font-size: 14px;
+  margin: 0;
+}
+
+.form a {
+  font-family: "Nunito", sans-serif;
+  font-size: 12px;
+}
+
+.form form {
+  margin-top: 1.5em;
+  text-align: left;
+  font-family: "Nunito", sans-serif;
+  font-size: 14px;
+}
+
+.form input {
+  margin-top: 0.75em;
+  margin-bottom: 2.5em;
+  border: 1px solid #c1c5c8;
+  height: 34px;
+}
+
+#tel {
+  margin-bottom: 0;
+}
+
+.form h5 {
+  font-size: 10px;
+  font-weight: 20;
+  margin-top: 0;
+}
+
+input.button-create-account {
+  width: 100%;
+  height: 44px;
+  background-color: #0077c5;
+  border: #0077c5;
+  color: white;
+  border-radius: 4px;
+  padding: 6px 22px;
+  text-decoration: none;
+  font-size: 15.75px;
+}
+
+p.terms-of-use {
+  font-size: 12px;
+  font-style: italic;
+  color: #757575;
+}
+
+.form section {
+  background-color: #eceef1;
+  margin: 32px -30px -30px;
+  padding: 16px;
+  text-align: center;
+  font-size: 10px;
+  color: #8d9096;
+}
+
+#section a {
+  font-size: 10px;
 }
